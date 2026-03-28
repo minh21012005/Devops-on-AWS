@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ALB_ARN = 'arn:aws:elasticloadbalancing:ap-southeast-1:430950558682:loadbalancer/app/udemy-devops-alb/b05b5a89ff031cac'
+        ALB_ARN = 'arn:aws:elasticloadbalancing:ap-southeast-1:183047400460:loadbalancer/app/udemy-devops-alb/44ba0b1a5cace511'
         LISTENER_BLUE_ARN = ''
         LISTENER_GREEN_ARN = ''
         TG_BLUE_ARN = ''
